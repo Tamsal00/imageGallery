@@ -1,0 +1,40 @@
+.taskbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.taskbar form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.taskbar input[type="text"] {
+  flex: 1;
+  height: 30px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+
+.taskbar button {
+  margin-left: 10px;
+  height: 30px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
